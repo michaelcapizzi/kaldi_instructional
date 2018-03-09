@@ -1,0 +1,184 @@
+
+\data\
+ngram  1=        15
+ngram  2=        33
+ngram  3=        53
+ngram  4=        67
+
+
+\1-grams:
+-1.82607	<s>	-0.778151
+-0.583037	the	-0.767686
+-1.34895	mouse	-0.352183
+-0.951014	ate	-1.17609
+-1.34895	cheese	-0.544068
+-1.28201	</s>	-0.845098
+-1.28201	cat	-0.39794
+-1.08571	and	-1.04139
+-1.28201	dog	-0.39794
+-1.28201	lion	-0.477121
+-1.34895	tyrannosaurus	-0.778151
+-1.34895	rex	-0.544068
+-1.82607	human	-0.30103
+-1.82607	shot	-0.30103
+-0.951014	<unk>
+
+\2-grams:
+-0.473892	<s> <s>	-0.477121
+-0.264775	<s> the	-0.30103
+-0.887409	the mouse	-0.352183
+-0.887409	the cheese	-0.544068
+-0.80894	the cat	-0.39794
+-0.80894	the dog	-0.39794
+-0.80894	the lion	-0.477121
+-0.887409	the tyrannosaurus	-0.778151
+-1.56963	the human	-0.30103
+-0.643597	mouse the	-0.30103
+-0.793546	mouse ate	-0.30103
+-0.871833	mouse </s>	-0.30103
+-0.587193	mouse and	-0.477121
+-0.0219352	ate the	-0.579784
+-0.801941	cheese </s>	-0.30103
+-0.225569	cheese and	-0.69897
+-0.689354	cat the	-0.30103
+-0.611231	cat ate	-0.477121
+-0.91759	cat </s>	-0.30103
+-0.63295	cat and	-0.477121
+-0.0301951	and the	-0.544068
+-0.689354	dog the	-0.30103
+-0.462463	dog ate	-0.60206
+-0.91759	dog </s>	-0.30103
+-0.876685	dog and	-0.30103
+-0.317172	lion ate	-0.69897
+-0.891016	lion </s>	-0.30103
+-0.858631	lion and	-0.30103
+-0.0753091	tyrannosaurus rex	-0.544068
+-0.219386	rex ate	-0.69897
+-0.801941	rex </s>	-0.30103
+-0.294596	human shot	-0.30103
+-0.200248	shot the	-0.30103
+
+\3-grams:
+-0.213291	<s> <s> <s>	-0.39794
+-0.458615	<s> <s> the	-0.30103
+-0.829353	<s> the mouse	-0.30103
+-0.793273	<s> the cat	-0.30103
+-0.793273	<s> the dog	-0.30103
+-0.793273	<s> the lion	-0.30103
+-0.829353	<s> the tyrannosaurus	-0.30103
+-1.01411	<s> the human	-0.30103
+-0.673485	the mouse the	-0.30103
+-0.738487	the mouse ate	-0.30103
+-0.767481	the mouse </s>	-0.30103
+-0.472109	the mouse and	-0.477121
+-0.725986	the cheese </s>	-0.30103
+-0.12995	the cheese and	-0.69897
+-0.740428	the cat the	-0.30103
+-0.525914	the cat ate	-0.477121
+-0.828688	the cat </s>	-0.30103
+-0.532933	the cat and	-0.477121
+-0.740428	the dog the	-0.30103
+-0.358615	the dog ate	-0.60206
+-0.828688	the dog </s>	-0.30103
+-0.814927	the dog and	-0.30103
+-0.218223	the lion ate	-0.69897
+-0.812614	the lion </s>	-0.30103
+-0.803357	the lion and	-0.30103
+-0.0116789	the tyrannosaurus rex	-0.544068
+-0.122783	the human shot	-0.30103
+-0.23835	mouse the cat	-0.30103
+-0.0108291	mouse ate the	-0.30103
+-0.00983335	mouse and the	-0.30103
+-0.716701	ate the mouse	-0.39794
+-0.526861	ate the cheese	-0.544068
+-0.701687	ate the cat	-0.39794
+-0.835288	ate the dog	-0.30103
+-1.02924	ate the lion	-0.30103
+-0.0058734	cheese and the	-0.30103
+-0.23835	cat the dog	-0.30103
+-0.00718906	cat ate the	-0.30103
+-0.00983335	cat and the	-0.30103
+-0.936334	and the cat	-0.30103
+-0.727654	and the dog	-0.477121
+-0.587295	and the lion	-0.60206
+-0.491145	and the tyrannosaurus	-0.69897
+-0.23835	dog the lion	-0.30103
+-0.00538101	dog ate the	-0.30103
+-0.0148352	dog and the	-0.30103
+-0.00429929	lion ate the	-0.30103
+-0.0148352	lion and the	-0.30103
+-0.128525	tyrannosaurus rex ate	-0.69897
+-0.725986	tyrannosaurus rex </s>	-0.30103
+-0.00429929	rex ate the	-0.30103
+-0.0886834	human shot the	-0.30103
+-0.248107	shot the mouse	-0.30103
+
+\4-grams:
+-0.190591	<s> <s> <s> <s>
+-0.469624	<s> <s> <s> the
+-0.241038	<s> <s> the mouse
+-0.22819	<s> the mouse ate
+-0.187785	<s> the cat ate
+-0.143298	<s> the dog ate
+-0.0955469	<s> the lion ate
+-0.00580022	<s> the tyrannosaurus rex
+-0.057067	<s> the human shot
+-0.103025	the mouse the cat
+-0.00538082	the mouse ate the
+-0.00325285	the mouse and the
+-0.00116833	the cheese and the
+-0.103025	the cat the dog
+-0.0023829	the cat ate the
+-0.00325285	the cat and the
+-0.103025	the dog the lion
+-0.00133922	the dog ate the
+-0.00735427	the dog and the
+-0.000856451	the lion ate the
+-0.00735427	the lion and the
+-0.10571	the tyrannosaurus rex ate
+-0.706519	the tyrannosaurus rex </s>
+-0.042082	the human shot the
+-0.228489	mouse the cat the
+-0.188002	mouse ate the cheese
+-0.463936	mouse and the dog
+-0.420991	mouse and the lion
+-0.571339	ate the mouse </s>
+-0.271743	ate the mouse and
+-0.706519	ate the cheese </s>
+-0.106096	ate the cheese and
+-0.586125	ate the cat </s>
+-0.286296	ate the cat and
+-0.489215	ate the dog </s>
+-0.486028	ate the dog and
+-0.238842	ate the lion </s>
+-0.7378	cheese and the cat
+-0.660333	cheese and the dog
+-0.594615	cheese and the lion
+-0.543071	cheese and the tyrannosaurus
+-0.228489	cat the dog the
+-0.460925	cat ate the mouse
+-0.399429	cat ate the cheese
+-0.420991	cat and the lion
+-0.385767	cat and the tyrannosaurus
+-0.187785	and the cat ate
+-0.0901033	and the dog ate
+-0.0451514	and the lion ate
+-0.00231079	and the tyrannosaurus rex
+-0.237596	dog the lion and
+-0.580596	dog ate the mouse
+-0.501279	dog ate the cheese
+-0.575048	dog ate the cat
+-0.179555	dog and the tyrannosaurus
+-0.655609	lion ate the mouse
+-0.562835	lion ate the cheese
+-0.649023	lion ate the cat
+-0.703202	lion ate the dog
+-0.179555	lion and the tyrannosaurus
+-0.000856451	tyrannosaurus rex ate the
+-0.562835	rex ate the cheese
+-0.649023	rex ate the cat
+-0.703202	rex ate the dog
+-0.765117	rex ate the lion
+-0.106572	human shot the mouse
+-0.217496	shot the mouse the
+\end\

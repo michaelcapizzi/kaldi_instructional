@@ -1,0 +1,58 @@
+
+\data\
+ngram  1=        15
+ngram  2=        33
+
+
+\1-grams:
+-1.82607	<s>	-0.69897
+-0.583037	the	-0.767686
+-1.34895	mouse	-0.352183
+-0.951014	ate	-1.17609
+-1.34895	cheese	-0.544068
+-1.28201	</s>	-0.845098
+-1.28201	cat	-0.39794
+-1.08571	and	-1.04139
+-1.28201	dog	-0.39794
+-1.28201	lion	-0.477121
+-1.34895	tyrannosaurus	-0.778151
+-1.34895	rex	-0.544068
+-1.82607	human	-0.30103
+-1.82607	shot	-0.30103
+-0.951014	<unk>
+
+\2-grams:
+-0.692536	<s> <s>
+-0.185594	<s> the
+-0.887409	the mouse
+-0.887409	the cheese
+-0.80894	the cat
+-0.80894	the dog
+-0.80894	the lion
+-0.887409	the tyrannosaurus
+-1.56963	the human
+-0.643597	mouse the
+-0.793546	mouse ate
+-0.871833	mouse </s>
+-0.587193	mouse and
+-0.0219352	ate the
+-0.801941	cheese </s>
+-0.225569	cheese and
+-0.689354	cat the
+-0.611231	cat ate
+-0.91759	cat </s>
+-0.63295	cat and
+-0.0301951	and the
+-0.689354	dog the
+-0.462463	dog ate
+-0.91759	dog </s>
+-0.876685	dog and
+-0.317172	lion ate
+-0.891016	lion </s>
+-0.858631	lion and
+-0.0753091	tyrannosaurus rex
+-0.219386	rex ate
+-0.801941	rex </s>
+-0.294596	human shot
+-0.200248	shot the
+\end\

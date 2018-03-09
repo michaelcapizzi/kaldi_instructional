@@ -1,0 +1,186 @@
+{
+  "run_prepare_data.sh": {
+    "parameters": {
+      "transcripts": {
+        "flag": "-r",
+        "value": "/scratch/kaldi/egs/INSTRUCTIONAL/raw_data/librispeech-transcripts.txt"
+      },
+      "lexicon": {
+        "flag": "-x",
+        "value": "/scratch/kaldi/egs/INSTRUCTIONAL/raw_data/librispeech-lexicon.txt"
+      },
+      "phones": {
+        "flag": "-p",
+        "value": "/scratch/kaldi/egs/INSTRUCTIONAL/raw_data/librispeech-phones.txt"
+      },
+      "language_model": {
+        "flag": "-l",
+        "value": "/scratch/kaldi/egs/INSTRUCTIONAL/raw_data/3-gram.pruned.3e-7.arpa"
+      },
+      "purge_oov": {
+        "flag": "-z",
+        "value": true
+      },
+      "train_dir": {
+        "flag": "-n",
+        "value": "/scratch/kaldi/egs/INSTRUCTIONAL/raw_data/LibriSpeech/train-clean-100_audio"
+      },
+      "test_dir": {
+        "flag": "-t",
+        "value": "/scratch/kaldi/egs/INSTRUCTIONAL/raw_data/LibriSpeech/test-clean_audio"
+      },
+      "unsegmented": {
+        "flag": "-u",
+        "value": true
+      },
+      "segments_train": {
+        "flag": "-g",
+        "value": null
+      },
+      "segments_test": {
+        "flag": "-h",
+        "value": null
+      },
+      "silence_phones": {
+        "flag": "-s",
+        "value": "SIL"
+      },
+      "non_vanilla_prepare_lang_hyperparameters": {
+        "flag": "-q",
+        "value": null
+      }
+    }
+  },
+  "run_feature_extraction.sh": {
+    "parameters": {
+      "mfcc_config": {
+        "flag": "-c",
+        "value": "conf/mfcc_defaults.conf"
+      },
+      "train_data_present": {
+        "flag": "-n",
+        "value": true
+      },
+      "test_data_present": {
+        "flag": "-t",
+        "value": true
+      },
+      "num_processors": {
+        "flag": "-j",
+        "value": 4
+      },
+      "non_vanilla_compute_cmvn_stats_hyperparameters": {
+        "flag": "-q",
+        "value": null
+      }
+    }
+  },
+  "run_train_phones.sh": {
+    "parameters": {
+      "training_type": {
+        "flag": "-i",
+        "value": "lda_mllt"
+      },
+      "num_gaussians": {
+        "flag": "-g",
+        "value": 10000
+      },
+      "num_leaves": {
+        "flag": "-l",
+        "value": 5000
+      },
+      "data_reduction_rate": {
+        "flag": "-p",
+        "value": 10
+      },
+      "num_processors": {
+        "flag": "-j",
+        "value": 4
+      },
+      "non_vanilla_train_mono_hyperparameters": {
+        "flag": "-q",
+        "value": null
+      },
+      "non_vanilla_mono_align_hyperparameters": {
+        "flag": "-r",
+        "value": null
+      },
+      "non_vanilla_train_deltas_hyperparameters": {
+        "flag": "-s",
+        "value": null
+      },
+      "non_vanilla_deltas_align_hyperparameters": {
+        "flag": "-t",
+        "value": null
+      },
+      "non_vanilla_train_lda_mllt_hyperparameters": {
+        "flag": "-w",
+        "value": null
+      },
+      "non_vanilla_lda_align_fmllr_hyperparameters": {
+        "flag": "-x",
+        "value": null
+      },
+      "non_vanilla_train_sat_hyperparameters": {
+        "flag": "-y",
+        "value": null
+      },
+      "non_vanilla_sat_align_hyperparameters": {
+        "flag": "-z",
+        "value": null
+      }
+    }
+  },
+  "run_compile_graph.sh": {
+    "parameters": {
+      "model_dir": {
+        "flag": "-t",
+        "value": "exp/triphones"
+      },
+      "non_vanilla_mkgraph_hyperparameters": {
+        "flag": "-q",
+        "value": null
+      }
+    }
+  },
+  "run_test.sh": {
+    "parameters": {
+      "graph_dir": {
+        "flag": "-g",
+        "value": "exp/triphones_lda/graph"
+      },
+      "data_test_dir": {
+        "flag": "-t",
+        "value": "data/test_dir/"
+      },
+      "decode_dir": {
+        "flag": "-d",
+        "value": "exp/triphones_lda/decode_test_dir"
+      },
+      "num_processors": {
+        "flag": "-j",
+        "value": 4
+      },
+      "weight": {
+        "flag": "-w",
+        "value": 10
+      },
+      "beam": {
+        "flag": "-b",
+        "value": 13.0
+      },
+      "max_active": {
+        "flag": "-m",
+        "value": 7000
+      },
+      "non_vanilla_decode_hyperparameters": {
+        "flag": "-q",
+        "value": null
+      },
+      "save_to": {
+        "flag": "-z",
+        "value": "exp/experiments/default_experiment_triphones_lda/"
+      }
+    }
+  }
+}

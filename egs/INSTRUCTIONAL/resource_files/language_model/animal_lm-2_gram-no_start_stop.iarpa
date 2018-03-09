@@ -1,0 +1,50 @@
+iARPA
+
+\data\
+ngram 1=	13
+ngram 2=	28
+
+\1-grams:
+-0.545837	the	-0.767686
+-1.311754	mouse	-0.425969
+-0.913814	ate	-1.176091
+-1.311754	cheese	-0.544068
+-1.244807	cat	-0.477121
+-1.048512	and	-1.041393
+-1.244807	dog	-0.477121
+-1.244807	lion	-0.477121
+-1.311754	tyrannosaurus	-0.778151
+-1.311754	rex	-0.544068
+-1.788875	human	-0.301030
+-1.788875	shot	-0.301030
+-0.975962	<unk>
+\2-grams:
+-0.913814	the mouse
+-0.913814	the cheese
+-0.834633	the cat
+-0.834633	the dog
+-0.834633	the lion
+-0.913814	the tyrannosaurus
+-1.612784	the human
+-0.602060	mouse the
+-0.903090	mouse ate
+-0.602060	mouse and
+-0.029963	ate the
+-0.845098	cheese the
+-0.243038	cheese and
+-0.653213	cat the
+-0.653213	cat ate
+-0.653213	cat and
+-0.041393	and the
+-0.653213	dog the
+-0.477121	dog ate
+-0.954243	dog and
+-0.954243	lion the
+-0.352183	lion ate
+-0.954243	lion and
+-0.079181	tyrannosaurus rex
+-0.845098	rex <s>
+-0.243038	rex ate
+-0.301030	human shot
+-0.301030	shot the
+\end\

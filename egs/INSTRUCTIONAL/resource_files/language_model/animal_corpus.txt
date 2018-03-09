@@ -1,0 +1,6 @@
+the mouse ate the cheese
+the cat ate the cheese and the cat ate the mouse
+the dog ate the cheese and the dog ate the mouse and the dog ate the cat
+the lion ate the cheese and the lion ate the mouse and the lion ate the cat and the lion ate the dog
+the tyrannosaurus rex ate the cheese and the tyrannosaurus rex ate the cat and the tyrannosaurus rex ate the dog and the tyrannosaurus rex ate the lion
+the human shot the mouse the cat the dog the lion and the tyrannosaurus rex
